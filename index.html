@@ -19,20 +19,22 @@
 <link href="css/jquery.fatNav.css" rel="stylesheet" type="text/css">
 
 <!--FlexSlider-->
-	<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+	<!-- <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" /> -->
 <!--//FlexSlider-->
 
-<link rel="stylesheet" href="css/lightbox.css"><!-- For-gallery-CSS -->
+<!-- <link rel="stylesheet" href="css/lightbox.css">--><!-- For-gallery-CSS -->
+<link rel="stylesheet" href="css/main.css">
 
 <!-- custom css theme files -->
 	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" media="all">
 	<link rel="stylesheet" href="css/font-awesome.min.css" />
 	<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+	<link rel="stylesheet" href="css/responsive.css" type="text/css" media="all">
 <!-- //custom css theme files -->
 
 <!-- google fonts -->
-<link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
-<link href="//fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=cyrillic,cyrillic-ext,latin-ext,vietnamese" rel="stylesheet">
+<!-- <link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
+<link href="//fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=cyrillic,cyrillic-ext,latin-ext,vietnamese" rel="stylesheet"> -->
 <!-- //google fonts -->
 
 </head>
@@ -55,7 +57,7 @@
 					</div> <!-- end container -->
 	</nav>
 
-<div class="w3l-banner" style="height:620px;">
+<div class="w3l-banner" style="">
 <div class="wthree-dot" style="height:100%;">
 
 	<!-- nav -->
@@ -65,12 +67,9 @@
 				<ul>
 					<li><a href="index.html" >Home</a></li>
 					<li><a href="#about"  class="scroll" >About Me</a></li>
-					<li><a href="#services"  class="scroll" >My Services</a></li>
 					<li><a href="#skills"  class="scroll" >My Skills</a></li>
-					<li><a href="#gallery"  class="scroll" >My projects</a></li>
-					<li><a href="#stats"  class="scroll" >Stats</a></li>
+					<li><a href="#wrapper"  class="scroll" >My Projects</a></li>
 					<li><a href="#experience"  class="scroll" >Work Experience</a></li>
-					<li><a href="#contact"  class="scroll" >Contact</a></li>
 				</ul>
 			</div>
 		</div>
@@ -100,8 +99,8 @@
 	<div class="container">
 		<h3 class="text-center">About Me</h3>
 
-		<div class="col-md-5 about_left" style="padding:6rem;">
-			<div style="background-color:rgba(0,0,0,0.6);padding:25px;margin-top:30px;">
+		<div class="col-md-5 about_left" style="padding:0;">
+			<div style="" class="about_right_info">
 							<ul class="address">
 								<li>
 									<ul class="agileits-address-text ">
@@ -146,28 +145,10 @@
 									</ul>
 								</li>
 							</ul>
-							<div class="w3-socials about-social">
-									<ul>
-										<li>
-											<a href="https://www.facebook.com/dostonbek.toirov"><span class="fa fa-facebook"></span></a>
-										</li>
-										<li>
-											<a href="https://www.linkedin.com/in/dostonbek-toirov/"><span class="fa fa-linkedin"></span></a>
-										</li>
-										<li>
-											<a href="#"><span class="fa fa-pinterest-p"></span></a>
-										</li>
-										<li>
-											<a href="#"><span class="fa fa-twitter"></span></a>
-										</li>
-									</ul>
-								</div>
 							</div>
 		</div>
 		<div class="col-md-7 about_right" >
-			<!-- <h3>I am Shindey Ker</h3> -->
-			<!-- <h4>Web designer : +4 years of coding experience</h4> -->
-			<p style="text-transform:none;">I am a junior double majoring in Computer Science and Mathematics, and minoring in Business Administration at Berea College.
+			<p style="text-transform:none;">I am a sophomore double majoring in Computer Science and Mathematics, and minoring in Business Administration at Berea College.
 			I was accepted to Berea College in August, 2017, with four-year full tuition scholarship. I am currently working as a Web/Database Analyst at Information Systems and Services
 		 	at Berea College. </p>
 			<p style="text-transform:none;">I am very passionate about technology, specifically web development - static, responsive and dynamic, data science, machine learning, and game development. I have
@@ -177,8 +158,7 @@
 			<p style="text-transform:none;">I am also a proud tutor, and I make video tutorials on learning computer programming and web development in Uzbek and English languages. <a href="http://beruny.com/"><b>More >></b></a></p>
 			<p></p>
 			<ul>
-				<!-- <li><a href="#contact" class="w3ls_more scroll" >Hire Me</a></li> -->
-				<li><a href="dostonbek_resume.pdf" class="w3l scroll">View Resume</a></li>
+				<li><a href="bek_resume.pdf" class="w3l scroll" target="_blank">View Resume</a></li>
 			</ul>
 		</div>
 		<div class="clearfix"></div>
@@ -188,16 +168,12 @@
 <!-- //About section -->
 
 <!-- /services -->
-<div class="w3-services" id="services">
+<div class="w3-services" id="skills">
 	<div class="container">
 			<div class="w3-services-grids">
-						<!-- <h3 class="text-center">My Skills</h3> -->
 				<div class="col-md-4 w3-services-left-grid">
 					<h4>My Skills</h4>
 					<p style="text-transform:none;">Following are some of my skills that I have been mastering for years now. I find these skills very useful and necessary in my everyday work and life. </p>
-					<!-- <div class="more">
-						<a href="#">Know more</a>
-					</div> -->
 				</div>
 				<div class="col-md-8 w3-services-right-grid">
 				<div class="w3-icon-grid-gap1">
@@ -208,7 +184,6 @@
 						<p style="text-transform:none;">I develop websites using HTML, CSS, JavaScript, Bootstrap, ASP.NET, C#, and Visual Basics.</p>
 					</div>
 					<div class="col-md-4 w3-icon-grid1">
-						<!-- <img src="images/pyton.ico"> -->
 						<i class="fa fa-code" aria-hidden="true"></i>
 						<h3>Python</h3>
 						<div class="clearfix"></div>
@@ -251,15 +226,13 @@
 <!-- //services -->
 
 <!--skills -->
-<div class="skills-agileinfo" id="skills">
+<div class="skills-agileinfo" id="skills2">
 	<div class="container">
 		<h3 class="text-center">My skills</h3>
 				<div class="modal-spa">
 					<div class="skills">
 						<div class="col-md-6 bar-grids bargrids-left">
 							<h4> Technical Skills </h4>
-							<!-- <p>Vestibulum facilisis nisi sed libero consectetur, nec eleifend augue feugiat.
-							Vivamus dictum quam id diam dapibus, a vehicula orci luctus.</p> -->
 							<h6>Python  <span> 80% </span></h6>
 							<div class="progress">
 								<div class="progress-bar progress-bar-striped active" style="width: 83%">
@@ -297,8 +270,6 @@
 							</div>
 
 							<h4 style="margin-top:30px;"> Languages </h4>
-							<!-- <p>Vestibulum facilisis nisi sed libero consectetur, nec eleifend augue feugiat.
-							Vivamus dictum quam id diam dapibus, a vehicula orci luctus.</p> -->
 							<h6>Uzbek  <span> 90% </span></h6>
 							<div class="progress">
 								<div class="progress-bar progress-bar-striped active" style="width: 90%">
@@ -317,8 +288,6 @@
 						</div>
 						<div class="col-md-6 bar-grids  w3-agile">
 							<h4> My Hobbies </h4>
-							<!-- <p>Vestibulum facilisis nisi sed libero consectetur, nec eleifend augue feugiat.
-							Vivamus dictum quam id diam dapibus, a vehicula orci luctus.</p> -->
 							<div class="col-md-4 hobbies-grid1 grid1">
 								<span class="fa fa-code"></span>
 								<h5>Coding</h5>
@@ -356,75 +325,83 @@
 <!-- //skills -->
 
 <!--gallery-->
-	<div class="gallery" id="gallery">
-		<div class="container">
-		<div class="about-head text-center ">
-		<h3 class="text-center">My Projects</h3>
-		</div>
-			<div class="gallery-info">
-				<div class="col-md-3 gallery-grids">
-					<a href="images/p1.jpg" class="gallery-box" data-lightbox="example-set" data-title="">
-						<img src="images/p1.jpg" alt="" class="img-responsive zoom-img">
-					</a>
-				</div>
-				<div class="col-md-3 gallery-grids">
-					<a href="images/p2.jpg" class="gallery-box" data-lightbox="example-set" data-title="">
-						<img src="images/p2.jpg" alt="" class="img-responsive zoom-img">
-					</a>
-				</div>
-				<div class="col-md-3 gallery-grids">
-					<a href="images/p3.jpg" class="gallery-box" data-lightbox="example-set" data-title="">
-						<img src="images/p3.jpg" alt="" class="img-responsive zoom-img">
-					</a>
-				</div>
-				<div class="col-md-3 gallery-grids">
-					<a href="images/p4.jpg" class="gallery-box" data-lightbox="example-set" data-title="">
-						<img src="images/p4.jpg" alt="" class="img-responsive zoom-img">
-					</a>
-				</div>
-				<div class="col-md-3 gallery-grids">
-					<a href="images/p5.jpg" class="gallery-box" data-lightbox="example-set" data-title="">
-						<img src="images/p5.jpg" alt="" class="img-responsive zoom-img">
-					</a>
-				</div>
-				<div class="col-md-3 gallery-grids">
-					<a href="images/p6.jpg" class="gallery-box" data-lightbox="example-set" data-title="">
-						<img src="images/p6.jpg" alt="" class="img-responsive zoom-img">
-					</a>
-				</div>
-				<div class="col-md-3 gallery-grids">
-					<a href="images/p7.jpg" class="gallery-box" data-lightbox="example-set" data-title="">
-						<img src="images/p7.jpg" alt="" class="img-responsive zoom-img">
-					</a>
-				</div>
-				<div class="col-md-3 gallery-grids">
-					<a href="images/p8.jpg" class="gallery-box" data-lightbox="example-set" data-title="">
-						<img src="images/p8.jpg" alt="" class="img-responsive zoom-img">
-					</a>
-				</div>
-				<div class="col-md-3 gallery-grids">
-					<a href="images/p9.jpg" class="gallery-box" data-lightbox="example-set" data-title="">
-						<img src="images/p9.jpg" alt="" class="img-responsive zoom-img">
-					</a>
-				</div>
-				<div class="col-md-3 gallery-grids">
-					<a href="images/p10.jpg" class="gallery-box" data-lightbox="example-set" data-title="">
-						<img src="images/p10.jpg" alt="" class="img-responsive zoom-img">
-					</a>
-				</div>
-				<div class="col-md-3 gallery-grids">
-					<a href="images/p11.jpg" class="gallery-box" data-lightbox="example-set" data-title="">
-						<img src="images/p11.jpg" alt="" class="img-responsive zoom-img">
-					</a>
-				</div>
-				<div class="col-md-3 gallery-grids">
-					<a href="images/p12.jpg" class="gallery-box" data-lightbox="example-set" data-title="">
-						<img src="images/p12.jpg" alt="" class="img-responsive zoom-img">
-					</a>
-				</div>
-				<div class="clearfix"> </div>
+	<!-- <div class="gallery" id="gallery"> -->
+		<div id="wrapper" style="margin-bottom:2rem">
+		<div id="main" style="padding-bottom:2rem;">
+			<div class="inner">
+				<header>
+					<h3 class="text-center" style="margin-bottom:1rem">My Projects<br /></h3>
+				</header>
+				<section class="tiles">
+					<article class="style1">
+						<span class="image">
+							<img src="images/p1.jpg" alt="" />
+						</span>
+						<a href="http://beruny.com/" target="_blank">
+							<h2>Beruny Academy</h2>
+							<div class="content">
+								<p>A web platform with a collection of tutorials on learning English and Programming.</p>
+							</div>
+						</a>
+					</article>
+					<article class="style2">
+						<span class="image">
+							<img src="images/p2.jpg" alt="" />
+						</span>
+						<a href="https://github.com/Dostonbek1/Software-Design-and-Implementation-Projects/tree/master/Final_Project" target="_blank">
+							<h2>Nim Beer</h2>
+							<div class="content">
+								<p>Simple two-player desktop game made under logic of Game of Nim.</p>
+							</div>
+						</a>
+					</article>
+					<article class="style3">
+						<span class="image">
+							<img src="images/p3.jpg" alt="" />
+						</span>
+						<a href="https://github.com/Dostonbek1/Derby-Hacks-Lousville" target="_blank">
+							<h2>Good Morning</h2>
+							<div class="content">
+								<p>A mobile application that serves as an alarm clock and uses the phone's built-in GPS for turn-off functionality..</p>
+							</div>
+						</a>
+					</article>
+					<article class="style4">
+						<span class="image">
+							<img src="images/p4.jpg" alt="" />
+						</span>
+						<a href="https://github.com/Dostonbek1/Software-Design-and-Implementation-Projects/tree/master/UPC%20bars" target="_blank">
+							<h2>UPC Bars</h2>
+							<div class="content">
+								<p>Python program that takes Universal Product Code (UPC) as an input from the user, and checks if the barcode is valid or not.</p>
+							</div>
+						</a>
+					</article>
+					<article class="style5">
+						<span class="image">
+							<img src="images/p5.jpg" alt="" />
+						</span>
+						<a href="https://github.com/Dostonbek1/Data-Structures-Projects/tree/master/Animal%20Guessing" target="_blank">
+							<h2>Animal Guessing</h2>
+							<div class="content">
+								<p>A simple game that tries to find a guessed animal by asking different questions.</p>
+							</div>
+						</a>
+					</article>
+					<article class="style6">
+						<span class="image">
+							<img src="images/p6.jpg" alt="" />
+						</span>
+						<a href="https://github.com/Dostonbek1" target="_blank">
+							<h2>More</h2>
+							<div class="content">
+								<p>You can find more projects on my GitHub.</p>
+							</div>
+						</a>
+					</article>
+				</section>
 			</div>
-			<script src="js/lightbox-plus-jquery.min.js"></script>
+		</div>
 		</div>
 </div>
 <!--//gallery-->
@@ -437,10 +414,6 @@
 			<img src="images/about.jpg" alt="" />
 		</div>
 		<div class="col-md-7 exp_right">
-			<!-- <h3>My Experience</h3>
-			<p>Morbi imperdiet scelerisque felis, eget auctor libero eleifend nec.
-			Curabitur a aliquet justo. Etiam et ullamcorper dolor. Nam pulvinar accumsan congue.
-			Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p> -->
 			<div class="exp_grids">
 				<div class="exp_grid1">
 					<h4>Web/Database Analyst, Berea College</h4>
@@ -476,25 +449,19 @@
 </section>
 <!-- //My experience -->
 
-<div class="w3l_footer">
-		<div class="container">
-			<h3>Thanks for visiting my site</h3>
-				<div class="connect-social">
-					<ul>
-						<li class="connect">Connect me with : </li>
-						<li><a href="#" class="social-button facebook"><i class="fa fa-facebook"></i></a></li>
-						<li><a href="#" class="social-button twitter"><i class="fa fa-twitter"></i></a></li>
-						<li><a href="#" class="social-button google"><i class="fa fa-google-plus"></i></a></li>
-						<li><a href="#" class="social-button linkedin"><i class="fa fa-linkedin"></i></a></li>
-					</ul>
-				</div>
-			<p class="agileits_w3ls_copyright">© 2017 Professional CV. All rights reserved | Design by <a href="http://w3layouts.com">W3layouts.</a></p>
-			<div class="arrow-container animated fadeInDown">
-				<a href="#home" class="arrow-2 scroll">
-					<i class="fa fa-angle-up"></i>
-				</a>
-				<div class="arrow-1 animated hinge infinite zoomIn"></div>
+<div class="w3l_footer" style="padding:1rem 0;">
+		<div class="container" style="margin:auto;">
+			<div style="margin:auto;width: 100%">
+				<ul class="social-nav m-auto" style="float:right;">
+					<li><a href="https://github.com/Dostonbek1" target="_blank" title="Github" rel="nofollow" class="github"><i class="fa fa-github"></i></a></li>
+					<li><a href="https://twitter.com/MrToirov" target="_blank" title="Twitter" rel="nofollow" class="twitter"><i class="fa fa-twitter"></i></a></li>
+					<li><a href="https://www.facebook.com/dostonbek.toirov" target="_blank" title="Facebook" rel="nofollow" class="facebook"><i class="fa fa-facebook"></i></a></li>
+					<!-- <li><a href="#" target="_blank" title="Telegram" rel="nofollow" class="telegram"><i class="fa fa-telegram"></i></a></li> -->
+					<li><a href="https://www.linkedin.com/in/dostonbek-toirov/" target="_blank" title="Linkedin" rel="nofollow" class="linkedin"><i class="fa fa-linkedin"></i></a></li>
+
+				</ul>
 			</div>
+			<p class="agileits_w3ls_copyright" style="font-size:12px;">© 2018 Dostonbek Toirov. All rights reserved | Design by <a href="http://w3layouts.com">W3layouts.</a></p>
 		</div>
 	</div>
 	<!--//footer -->
@@ -508,17 +475,6 @@
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 <!-- //Default-JavaScript-File -->
 
-<!-- gauge-meter -->
-	<script src="js/jquery.gauge.js"></script>
-	<script>
-		$(document).ready(function (){
-			$("#gauge1").gauge(90,{color: "#ff4f81",unit: " %",type: "halfcircle"});
-			$("#gauge2").gauge(70, {color: "#2dde98", unit: " %",type: "halfcircle"});
-			$("#gauge3").gauge(75, {color: "#00aeff",unit: " %",type: "halfcircle"});
-			$("#gauge4").gauge(40, {color: "#ffb900",unit: " %",type: "halfcircle"});
-		});
-	</script>
-<!-- //gauge-meter -->
 
 <!--menu script-->
 <script type="text/javascript" src="js/modernizr-2.6.2.min.js"></script>

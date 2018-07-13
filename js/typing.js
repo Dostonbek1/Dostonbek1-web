@@ -3,7 +3,7 @@ var temp = 1;
 (function runForever(){
   test();
   temp += 1
-  setTimeout(runForever, 3600)
+  setTimeout(runForever, 5500)
 })()
 
 function test() {
@@ -29,18 +29,19 @@ function typeWriter(i, txt, demo, text_list, j) {
 
     demo.innerHTML = text_list;
     i++;
-    setTimeout(function(){typeWriter(i, txt, demo, text_list, j)}, 90);
+    setTimeout(function(){typeWriter(i, txt, demo, text_list, j)}, 110);
   } else {
     erase(text_list, demo, j);
   }
 
 function erase(text_list, demo, j) {
   if (j != 0) {
+
     text_list = text_list.slice(0, -1)
     demo.innerHTML = text_list;
     j = j - 1;
     console.log(j);
-    setTimeout(function(){ erase(text_list, demo, j ) }, 30);
+    setTimeout(function(){ erase(text_list, demo, j ) }, 60);
     console.log(j);
   }
 }
